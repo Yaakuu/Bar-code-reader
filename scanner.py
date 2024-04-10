@@ -1,6 +1,5 @@
-import cv2
-from pyzbar.pyzbar import decode
-import time
+import cv2                                #pip install opencv-python
+from pyzbar.pyzbar import decode          #pip install pyzbar
 
 cam = cv2.VideoCapture(0)
 address ='http://.../video' #replace dots with actual local IP of camera
